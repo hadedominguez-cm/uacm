@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    color: rgb(251, 251, 249);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.contenedor{
+    border: 3px solid rgb(47, 238, 255);
+} /*border del contenedor*/
+
+.transiciones{
+    width: 150px;
+    height: 70px;
+    border: 1px solid palevioletred;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    line-height: 70px; 
+}
+.sinefecto{
+    margin-top: 15px;
+}
+ .sinefecto:hover{
+    transform: translateY(900deg);
+    transition: all 9s ease;
+    background-color: brown;
+
+ } 
+
+
+.ease:hover{
+    width:300px ;
+    height: 140px;
+    background-color:rgb(255, 104, 99) ;
+    color: blue;
+    transform: scale(1.1);
+    transition: all 9s ease;
+    line-height: 140px;
+}
+.linear:hover{
+    width:300px ;
+    height: 140px;
+    background-color:rgb(255, 193, 99) ;
+    color: blue;
+    transform: translateX(800px);
+    transition: all 10s linear;
+    line-height: 140px;
+}
+
+.ease-in:hover{
+    width:300px ;
+    height: 140px;
+    background-color:rgb(190, 255, 99) ;
+    color: blue;
+    transform: rotateY(360deg);
+    transition: all 9s ease-in;
+    line-height: 140px;
+}
+
+.ease-out:hover{
+    width:300px ;
+    height: 140px;
+    background-color:rgb(99, 255, 190) ;
+    color: blue;
+    transition: all 9s ease-out;
+    line-height: 140px;
+}
+.ease-in-out:hover{
+    width:300px ;
+    height: 140px;
+    background-color:rgb(99, 187, 255) ;
+    color: blue;
+   transform: translateY(-500); 
+    transition: all 9s ease-in-out;
+    line-height: 140px;
+}
